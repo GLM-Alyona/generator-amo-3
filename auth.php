@@ -1,11 +1,11 @@
 <?php
 # An array of parameters that must be passed by the POST method to the API
 $user=array(
-	'USER_LOGIN'=>'124svetik12345@rambler.ru',
-	'USER_HASH'=>'nksUk7ZWLhB6YgjLfg1hlg1JFNaPCM2yVOdeyshLG2eILZYz19nR69z8TPv0SP0f' 
+	'USER_LOGIN'=>'olgismay@mail.ru',
+	'USER_HASH'=>'f815f784-bfef-4c6e-a9d6-d973aeca3c8b' 
 );
 
-$subdomain='124svetik12345'; 
+$subdomain='olgismay'; 
 # Create a link for request
 $link='https://'.$subdomain.'.amocrm.ru/private/api/auth.php?type=json';
 $curl=curl_init(); # Save the cURL session handle
